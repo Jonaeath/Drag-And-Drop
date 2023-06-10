@@ -1,0 +1,83 @@
+
+.Box{
+    display: flex;
+    background-color: blue;
+    width: 80%;
+    justify-content: center;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.information-Box{
+    height: 140px;
+    width: 240px;
+    margin:10px;
+    background-color: palegreen;
+    border: solid yellow 5px;
+}
+
+.information-Box-1{
+    margin-left: 3px;
+    margin-top: 0px;
+}
+
+.imageBox{
+    background-image: url(image/photo.jpg);
+    position: relative;
+    height: 140px;
+    width: 140px;
+    cursor: pointer;
+}
+
+.MainBox{
+    height: 140px;
+    width: 140px;
+    margin: 10px;
+    background-color: olive;
+    
+}
+/* Container-1 */
+.Box-1{
+    height: 160px;
+    width: 160px;
+    margin: 10px;
+    border: solid yellow 5px;
+}
+
+/* Container-2 */
+.Box-2{
+    height: 310px;
+    width: 161px;
+    margin: 10px;
+    border: solid yellow 5px;
+
+}
+
+/* Drag Start Border - DSBorder */
+.DSBorder{
+    border: solid yellow 5px;
+}
+
+/* Drag enter Expression - BEexpression */
+.DEexpression{
+    background: rebeccapurple;
+    border-style: dotted;
+}
+
+.hide{
+    display: none;
+}
+
+.btn-reset{
+    height: 30px;
+    margin-top: 60px;
+    background-color: olive;
+    border-radius: 5px;
+    color: antiquewhite;
+    border: solid yellow 2px;
+
+}
+
+.btn-reset:hover{
+    background-color: yellowgreen;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drag and Drop</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="Box">
+      <div class="information-Box">
+        <p class="information-Box-1">
+          My name is Jonaeath Hossin.I completed my engineering in EEE.I have
+          always been interested in web development, and I have the necessary
+          skills required for the role. I have a good understanding of HTML, CSS
+          and JavaScript.
+        </p>
+      </div>
+      <!-- Container-1  -->
+      <div class="Box-1">
+        <div id="divElement" class="MainBox">
+            <div class="imageBox" draggable="true"></div>
+          </div>
+      </div>
+      <!-- ------ -->
+      <!-- Container-2-->
+      <div class="Box-2">
+        <div class="MainBox"></div>
+        <div class="MainBox"></div>
+      </div>
+       <!-- ------- -->
+      <button id="reset-btn" class="btn-reset" onclick="resetDrag()">
+        RESET BUTTON
+      </button>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
